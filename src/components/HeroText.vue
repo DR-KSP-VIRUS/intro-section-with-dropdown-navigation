@@ -7,10 +7,10 @@
             <button class="border border-medium-gray px-4 py-2 mb-4 rounded-xl bg-almost-black text-almost-white hover:bg-almost-white hover:text-almost-black ">Learn more</button>
         </div>
         <div class="flex min-w-full place-content-between">
-            <img src="/images/client-audiophile.svg" alt="">
-            <img src="/images/client-databiz.svg" alt="">
-            <img src="/images/client-maker.svg" alt="">
-            <img src="/images/client-meet.svg" alt="">
+            <img src="/images/client-audiophile.svg" alt="audiophile">
+            <img src="/images/client-databiz.svg" alt="databiz">
+            <img src="/images/client-maker.svg" alt="maker">
+            <img src="/images/client-meet.svg" alt="meet">
         </div>
     </section>
 </template>
