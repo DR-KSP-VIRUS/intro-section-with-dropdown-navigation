@@ -11,6 +11,9 @@ export default {
         "medium-gray": "#696969",
         "almost-black": "#141414",
       },
+      fontFamily: {
+        sans: ['Epilogue', 'sans-serif'],
+      }
     },
   },
   plugins: [],

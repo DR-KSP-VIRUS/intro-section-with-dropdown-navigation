@@ -1,17 +1,11 @@
 @import "./base.css";
 
 
-
-.hide {
-    display: none;
-}
-
-
 /* display dropdown on hover */
 ul li a:hover+.hidden,
 li>.hidden:hover {
-    display: block;
-    transition: all 0.54s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .arrow-up {
