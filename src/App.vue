@@ -2,7 +2,7 @@
   <header>
     <NavigationList />
   </header>
-  <main class="flex font-sans flex-col-reverse my-12 md:pl-32 md:pr-4 md:flex-row place-content-between gap-4">
+  <main class="flex font-sans flex-col-reverse my-1 md:pl-32 md:mr-12 md:flex-row place-content-between gap-4">
     <HeroText />
     <TheHero />
   </main>

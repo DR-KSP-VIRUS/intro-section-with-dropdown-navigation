@@ -1,13 +1,13 @@
 <template>
-    <div class="py-8 px-4 md:hidden">
+    <div class="py-4 px-4 md:hidden">
         <img src="/images/logo.svg" alt="logo">
-        <img @click="open=true" class="absolute right-8 top-8 cursor-pointer" src="/images/icon-menu.svg" alt="menu">
+        <img @click="open=true" class="absolute right-4 top-4 cursor-pointer" src="/images/icon-menu.svg" alt="menu">
     </div>
     <div :class="open ? 'fixed top-0 bottom-0 bg-almost-black/50 left-0 right-0': 'md:hidden'"></div>
     <ul :class="open ? 'fixed px-4 pt-8 bg-white min-h-screen top-0 right-0     text-medium-gray font-sans': 'hidden text-medium-gray md:flex md:place-items-center md:px-4  md:relative md:min-h-0 md:pt-2 md:bg-almost-white'">
         <NavigationItem>
             <img class="hidden md:block" src="/images/logo.svg" alt="logo">
-            <img @click="open=false" :class="open ? 'absolute top-4 right-8' :'md:hidden'" src="/images/icon-close-menu.svg" alt="close">
+            <img @click="open=false" :class="open ? 'absolute top-4 right-4' :'md:hidden'" src="/images/icon-close-menu.svg" alt="close">
         </NavigationItem>
         <NavigationItem>
             <a class="flex min-w-full pb-3 place-items-center hover:text-almost-black" href="#">Features
