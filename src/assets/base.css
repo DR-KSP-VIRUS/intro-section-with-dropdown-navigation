@@ -1,8 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
 
 #app {
     @apply bg-almost-white min-h-screen pb-8;
+}
+
+/* display dropdown on hover */
+ul li a:hover+.hidden,
+li>.hidden:hover {
+    @apply flex flex-col
+}
+
+.arrow-up {
+    @apply hidden
+}
+
+li a:hover .arrow-up {
+    @apply block
+}
+
+li a:hover .arrow-down {
+    @apply hidden
 }
